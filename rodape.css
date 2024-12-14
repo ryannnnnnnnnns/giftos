@@ -1,0 +1,102 @@
+.container {
+    background-color: #000000;
+    width:100%;
+    position: relative;
+}
+.line2 {
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    display: flex; 
+}
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#titsm {
+    font-size: 20px;
+}
+.aboutus, .newsletter, .needhelp, .contactus  {
+    text-align: left;
+    color: azure;
+    margin-left:40px;
+    margin-right:40px;
+    position: relative;
+    
+}
+.e_mail{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 30px;
+}
+.linha {
+    width: 70%;
+    height: 70%;
+}
+.rights {
+    color: azure;
+    text-align: center;
+}
+#c {
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+#insta {
+    width: 25px;
+    height: 25px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+#face {
+    width:28px;
+    height:28px;
+    margin-top: 18px;
+    justify-content: center;
+    margin-left: 25px;
+}
+#x {
+    width: 28px;
+    height: 28px;
+    margin-top: 18px;
+    justify-content: center;
+    margin-left: 18px;
+}
+#yout {
+    width: 30px;
+    height: 30px;
+    margin-top: 18px;
+    margin-left: 18px;
+    justify-content: center;
+
+}
+#sub{
+    height: 40px;
+    width: 150px;
+    background-color: #f89cab;
+    font-size:15px ;
+    color: white;
+    border-radius: 5px;
+}
+#enviar {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.contact {
+    display: flex;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#tel, #local {
+    display: flex;
+    margin-top:5px ;
+    margin-bottom:5px ;
+    height: 20px;
+    width: 20px;
+}
+#local1 {
+    font-size:12px;
+}

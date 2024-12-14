@@ -1,0 +1,102 @@
+*{
+    font-family: "Poppins";
+ 
+}
+
+.cont-primario{
+    
+    height: 700px;
+    padding: 0 45px;
+}
+#title{
+    text-align: center;
+   
+}
+.cont-lista{
+    display: flex;  
+    height: 50px;
+    list-style-type: none;
+    background-color: #f9ece6;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius:  15px;
+    margin: 0;
+    padding-top: 5px;
+    
+    
+}
+.a-list{
+    
+    padding: 5px 25px;
+    color: #514f4f; 
+    text-decoration-line: none;
+    
+   
+}
+.a-user{
+    text-decoration-line: none;
+    color: #514f4f; 
+    padding:0;
+    margin: 0 0 0 5px;
+}
+
+.user-option{
+    display: flex;
+    margin:0 0 0 25px;
+  
+    
+}
+.material-icons{
+    font-size: 24px;
+}
+  
+
+.cont-foto{
+    display: flex;
+    justify-content: space-evenly;
+    height: 650px;
+    background-color: #f89cab;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:  15px;
+    
+}
+.texto-car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    height: 100%;
+    color:#fefefe;
+  
+   
+
+}
+#a-bot{
+    margin: 0;
+    color:#fefefe;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.bot {
+    color: white;
+    background-color: #db4566;
+    width: 150px;
+    height: 40px;
+    margin: 25px 0 0;
+    border:none;
+    border-radius: 4px;
+    padding: 0 0;
+    
+}
+.figura-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    
+
+}

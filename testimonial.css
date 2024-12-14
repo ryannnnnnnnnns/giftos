@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative;
+  }
+.titulo {
+    text-align: center;
+    margin: 50px ;
+}
+.box {
+    border-radius: 5px;
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative; 
+    text-align: left;
+    padding: 0 40px;
+}
+.paragrafo {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #2d3436; 
+  }
+
+.botao {
+    background-color: #db4566;
+    color: #ffffff;
+    border: none;
+    width: 35px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5em;
+    position: absolute;
+}
+  .botaoesquerda {
+    margin-right: 20px;
+    left: 20px;
+    position: relative;
+  }
+
+.botaodireita {
+    margin-left: 20px;
+    right: 20px; 
+    position: relative;
+  }
+h2 {
+  color:#db4566; 
+}
+h3{
+  color: #eeeeee;
+  font-size: 15px;
+}
+p {
+  font-size: 20px;
+}
+
+  

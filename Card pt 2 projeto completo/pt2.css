@@ -1,0 +1,96 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 10px;
+        }
+        .box {
+            background-color: #eeee;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            text-align: left;
+            align-self: center;
+            justify-content: center;
+        }
+
+        .imag {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;  
+            padding: 40px;
+        }
+
+        .box .new {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #fff;
+            color: #333;
+            font-size: 15px;
+            width: 40px;
+            height: 40px;
+            border-radius: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h2 {
+            margin: 10px 0 5px;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .box p {
+            margin: 0;
+            color: #666;
+        }
+
+        .box p.price {
+            color: #e63946;
+            font-weight: bold;
+        }
+
+        .botao {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #e63946;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .botao:hover {
+            background-color: #e63946;
+        }
+        .rodape {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
