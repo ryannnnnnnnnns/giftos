@@ -2,7 +2,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     size: 57px;
-}
+} 
 
 
 
@@ -11,7 +11,7 @@
     margin: 30px;
 
 }
-
+/* começo style lista topo*/
 .cont-lista {
     display: flex;
     height: 50px;
@@ -52,9 +52,9 @@
 
 .material-icons {
     font-size: 24px;
-}
+}/* final style lista topo*/
 
-
+/* style conteiner foto topo*/
 .cont-foto {
     display: flex;
     justify-content: space-evenly;
@@ -107,8 +107,9 @@
 
 
 }
+/* fim style conteiner foto topo*/
 
-
+/* começo style conteiner cards*/
 .cont-card {
     display: flex;
     flex-wrap: wrap;
@@ -201,7 +202,7 @@
     justify-content: space-between;
     align-items: center;
 }
-
+/* fim style conteiner cards*/
 
 .parte3 {
     width: 100%;

@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="giftos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <div class="corpo"><!--Inicio conteiner principal-->
-        <div class="cont-primario">
+        <div class="cont-primario"><!--Inicio conteiner topo-->
             <h1 id="title">GIFTOS</h1>
 
-            <ul class="cont-lista">
+            <ul class="cont-lista"><!--Inicio conteiner lista-topo -->
                 <li><a href="#" class="a-list">HOME</a></li>
-                <li><a href="#" class="a-list">SHOP</a></li>
+                <li><a href="#shop" class="a-list">SHOP</a></li>
                 <li><a href="#link-why" class="a-list">WHY US</a></li>
                 <li><a href="#link-test" class="a-list">TESTIMONIAL</a></li>
                 <li><a href="#contact" class="a-list">CONTACT US</a></li>
@@ -31,10 +33,10 @@
                     <a href="#" class="a-user"> <span class="material-icons">search</span></a>
 
                 </div>
-            </ul>
+            </ul><!--Fim conteiner lista-topo-->
 
 
-            <div class="cont-foto"> <!--Conteiner primário-menina-->
+            <div class="cont-foto"> <!--Conteiner topo-menina-->
 
                 <div class="texto-car">
                     <h2>Welcome To Our <br> Gift Shop</h2>
@@ -47,13 +49,14 @@
                 <div class="figura-car">
                     <img src="slider-img.png" alt="exemplo">
 
-                </div><!--Fim Conteiner primário-menina-->
+                </div>
 
-            </div>
-        </div>
+            </div><!--Fim Conteiner topo-menina-->
+        </div><!--Fim Conteiner topo-->
+<!--------------------------------------------------------------------------------------------->
         <h1 id="title">LATEST PRODUCTS</h1>
 
-        <div class="cont-card">
+        <div class="cont-card" id="shop"> <!--Inicio conteiner cards produtos-->
 
             <div class="box">
                 <span class="new">New</span>
@@ -127,12 +130,14 @@
                 </div>
             </div>
 
-        </div>
+        </div><!--Fim conteiner cards produtos-->
+<!------------------------------------------------------------------------------------>
+
 
         <a href="#" class="bot-card">View All Products</a>
 
 
-        <div class="cont-buy-now"><!-- Inicio conteiner azul -->
+        <div class="cont-buy-now"><!-- Inicio conteiner best-saving -->
 
             <div class="content-3"><!-- Inicio conteiner de conteúdo-->
                 <div class="menina">
@@ -150,12 +155,13 @@
                     </div>
                 </div>
             </div>
-        </div><!-- Fim conteiner azul -->
+        </div><!-- Fim conteiner best saving-->
 
+<!------------------------------------------------------------------------------------>
 
-        <h1 id="title ">WHY SHOP WITH US</h1>
+        <h1 id="title">WHY SHOP WITH US</h1>
 
-        <div class="why-shop" id="link-why"> <!-- Inicio cont cards selo-->
+        <div class="why-shop" id="link-why"> <!-- Inicio cont cards selos-->
             <div class="cards-why">
                 <img class="fig-card" src="truck.svg" alt="caminhao">
                 <h3>Fast Delivery</h3>
@@ -172,7 +178,7 @@
                 <p>variatons of passagens os Lorem Ipsum available</p>
             </div>
 
-        </div><!-- Fim cont cards selo -->
+        </div><!-- Fim cont cards selos -->
 
         <div class="cont-gift"><!-- Inicio conteiner presentes -->
             <div class="gifts">
@@ -195,14 +201,12 @@
 
         </div>
 
+<!------------------------------------------------------------------------------------>
 
+        <h3 clas="title-4" id="contact">CONTACT US</h3>
 
+        <div class="cont-mapa"> <!--Inicio conteiner mapa e forms -->
 
-
-
-        <h3 clas="title-4">CONTACT US</h3>
-
-        <div class="cont-mapa">
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.293284371023!2d-48.021124025712176!3d-23.593812462783216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5cbf41ebfcf31%3A0xa65e4fb6d75446bf!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Itapetininga!5e0!3m2!1spt-BR!2sbr!4v1733611116907!5m2!1spt-BR!2sbr"
@@ -239,7 +243,10 @@
 
             </div>
 
-        </div>
+        </div> <!--Fim do conteiner mapa e forms-->
+
+<!------------------------------------------------------------------------------------>
+
         <div class="titulo" id="link-test">
             <h1 id="title">TESTIMONIAL</h1>
         </div>
@@ -257,68 +264,72 @@
                 <p>Various editor now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
                     uncover many web sites still in their infancy. Various editor now use Lorem Ipsum as their default
                     model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                </div>
+            </div>
 
             <button class="botao botaodireita">&#8250;</button>
 
         </div>
-
-        <div class="container2">
-
         
-        <div class="cont-rodape">
-            <div class="rodape">
+<!------------------------------------------------------------------------------------>
 
-                <div class="socialmedia">
-                    <img id="face" src="facebookicon.png">
-                    <img id="x" src="twittericon.png">
-                    <img id="insta" src="instagramicon.png">
-                    <img id="yout" src="youtubeicon.png">
-                </div>
+        <div class="container2"><!--inicio conteiner rodape-->
 
-                <div class="line2">
-                    <div class="aboutus">
-                        <h1 id="titsm">ABOUT US</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sapiente vel delectus dicta
-                            numquam recusandae explicabo corporis totam aliquam architecto culpa unde necessitatibus
-                            itaque. Earum, fugit! Debitis vero tempora atque!</p>
+
+            <div class="cont-rodape">
+                <div class="rodape">
+
+                    <div class="socialmedia">
+                        <img id="face" src="facebookicon.png">
+                        <img id="x" src="twittericon.png">
+                        <img id="insta" src="instagramicon.png">
+                        <img id="yout" src="youtubeicon.png">
                     </div>
 
-                    <div class="newsletter">
-                        <h1 id="titsm">NEWS LETTER</h1>
-                        <input class="e_mail" type="email" placeholder="Enter your email">
-                        <button id="sub">SUBSCRIBE</button>
-                    </div>
-
-                    <div class="needhelp">
-                        <h1 id="titsm">NEED HELP</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sapiente vel delectus dicta
-                            numquam recusandae explicabo corporis totam aliquam architecto culpa unde necessitatibus
-                            itaque. Earum, fugit! Debitis vero tempora atque!</p>
-                    </div>
-
-                    <div class="contactus">
-                        <h1 id="titsm">CONTACT US</h1>
-                        <div class="contact"><img src="localizacao.png" id="local">
-                            <p id="local1">Gb road 123 London Uk</p>
+                    <div class="line2">
+                        <div class="aboutus">
+                            <h1 id="titsm">ABOUT US</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sapiente vel delectus
+                                dicta
+                                numquam recusandae explicabo corporis totam aliquam architecto culpa unde necessitatibus
+                                itaque. Earum, fugit! Debitis vero tempora atque!</p>
                         </div>
-                        <div class="contact"><img src="telephone.png" id="tel">+01 12345678901</div>
-                        <div class="contact"><img src="enviar.png" id="enviar">demo@gmail.com</div>
 
+                        <div class="newsletter">
+                            <h1 id="titsm">NEWS LETTER</h1>
+                            <input class="e_mail" type="email" placeholder="Enter your email">
+                            <button id="sub">SUBSCRIBE</button>
+                        </div>
+
+                        <div class="needhelp">
+                            <h1 id="titsm">NEED HELP</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sapiente vel delectus
+                                dicta
+                                numquam recusandae explicabo corporis totam aliquam architecto culpa unde necessitatibus
+                                itaque. Earum, fugit! Debitis vero tempora atque!</p>
+                        </div>
+
+                        <div class="contactus">
+                            <h1 id="titsm">CONTACT US</h1>
+                            <div class="contact"><img src="localizacao.png" id="local">
+                                <p id="local1">Gb road 123 London Uk</p>
+                            </div>
+                            <div class="contact"><img src="telephone.png" id="tel">+01 12345678901</div>
+                            <div class="contact"><img src="enviar.png" id="enviar">demo@gmail.com</div>
+
+                        </div>
                     </div>
+
+                    <div class="rights">
+                        <hr class="linha">
+                        <br>
+                        <h2 id="c"> C 2024 All Rights Reserved By Free Html Templates</h2>
+                    </div>
+
                 </div>
 
-                <div class="rights">
-                    <hr class="linha">
-                    <br>
-                    <h2 id="c"> C 2024 All Rights Reserved By Free Html Templates</h2>
-                </div>
+            </div> <!--Fim conteiner rodape-->
 
-            </div>
-
-        </div>
-
-    </div> <!--Fim conteiner principal-->
+        </div> <!--Fim conteiner principal-->
 
 
 
